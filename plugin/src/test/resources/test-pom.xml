@@ -24,7 +24,7 @@
 		<defaultGoal>test</defaultGoal>
 		<plugins>
 			<plugin>
-				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<groupId>org.hisrc.xjc</groupId>
 				<artifactId>maven-jaxb2-plugin</artifactId>
 				<executions>
 					<execution>

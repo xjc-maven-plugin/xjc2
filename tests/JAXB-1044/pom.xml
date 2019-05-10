@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>maven-jaxb2-plugin-tests-JAXB-1044</artifactId>
 	<parent>
-		<groupId>org.jvnet.jaxb2.maven2</groupId>
+		<groupId>org.hisrc.xjc</groupId>
 		<artifactId>maven-jaxb2-plugin-tests</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
@@ -16,7 +16,7 @@
 			<artifactId>jaxb-runtime</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2.maven2</groupId>
+			<groupId>org.hisrc.xjc</groupId>
 			<artifactId>maven-jaxb2-plugin-testing</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -24,7 +24,7 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<groupId>org.hisrc.xjc</groupId>
 				<artifactId>maven-jaxb2-plugin</artifactId>
 				<executions>
 					<execution>

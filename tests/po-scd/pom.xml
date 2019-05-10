@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>maven-jaxb2-plugin-tests-po-scd</artifactId>
 	<parent>
-		<groupId>org.jvnet.jaxb2.maven2</groupId>
+		<groupId>org.hisrc.xjc</groupId>
 		<artifactId>maven-jaxb2-plugin-tests</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
@@ -19,7 +19,7 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<groupId>org.hisrc.xjc</groupId>
 				<artifactId>maven-jaxb2-plugin</artifactId>
 				<configuration>
 					<extension>true</extension>
