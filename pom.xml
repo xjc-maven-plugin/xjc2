@@ -32,11 +32,6 @@
 		</developer>
 	</developers>
 	<modules>
-		<module>plugin-core</module>
-		<module>plugin-2.0</module>
-		<module>plugin-2.1</module>
-		<module>plugin-2.2</module>
-		<module>plugin-2.3</module>
 		<module>plugin</module>
 		<module>testing</module>
 	</modules>
@@ -268,26 +263,6 @@
 			<dependency>
 				<groupId>org.hisrc.xjc</groupId>
 				<artifactId>maven-jaxb2-plugin</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb20-plugin</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb21-plugin</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb22-plugin</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb23-plugin</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

@@ -1,5 +1,5 @@
 setlocal
-echo Setting JAVA_HOME to %JAVA7_HOME%.
-set JAVA_HOME=%JAVA7_HOME%
+echo Setting JAVA_HOME to %JAVA10_HOME%.
+set JAVA_HOME=%JAVA10_HOME%
 call mvn clean install -Pall,sonatype-oss-release -DperformRelease --fail-at-end
 endlocal

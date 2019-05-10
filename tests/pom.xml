@@ -17,10 +17,6 @@
 		<module>issues</module>
 		<module>po</module>
 		<module>p o</module>
-		<module>po-2.0</module>
-		<module>po-2.1</module>
-		<module>po-2.2</module>
-		<module>po-2.3</module>
 		<module>po-scd</module>
 		<module>res</module>
 		<module>tse</module>
@@ -57,58 +53,6 @@
 								<goal>generate</goal>
 							</goals>
 							<phase>generate-sources</phase>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.hisrc.xjc</groupId>
-					<artifactId>maven-jaxb20-plugin</artifactId>
-					<version>${project.version}</version>
-					<executions>
-						<execution>
-							<id>generate</id>
-							<goals>
-								<goal>generate</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.hisrc.xjc</groupId>
-					<artifactId>maven-jaxb21-plugin</artifactId>
-					<version>${project.version}</version>
-					<executions>
-						<execution>
-							<id>generate</id>
-							<goals>
-								<goal>generate</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.hisrc.xjc</groupId>
-					<artifactId>maven-jaxb22-plugin</artifactId>
-					<version>${project.version}</version>
-					<executions>
-						<execution>
-							<id>generate</id>
-							<goals>
-								<goal>generate</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.hisrc.xjc</groupId>
-					<artifactId>maven-jaxb23-plugin</artifactId>
-					<version>${project.version}</version>
-					<executions>
-						<execution>
-							<id>generate</id>
-							<goals>
-								<goal>generate</goal>
-							</goals>
 						</execution>
 					</executions>
 				</plugin>

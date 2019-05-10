@@ -21,7 +21,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb21-plugin</artifactId>
+				<artifactId>maven-jaxb2-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
