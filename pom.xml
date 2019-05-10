@@ -1,25 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.hisrc.xjc</groupId>
-	<artifactId>maven-jaxb2-plugin-project</artifactId>
+	<artifactId>xjc23-maven-plugin-project</artifactId>
 	<version>0.14.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Maven JAXB 2.x Plugin Project</name>
 	<description>Maven2 plugin for JAXB 2.x XJC compiler to generate Java sources from XML Schemas.</description>
-	<url>https://github.com/highsource/maven-jaxb2-plugin</url>
+	<url>https://github.com/xjc-maven-plugin/xjc23</url>
 	<licenses>
 		<license>
 			<name>BSD-Style License</name>
-			<url>https://github.com/highsource/maven-jaxb2-plugin/blob/master/LICENSE</url>
+			<url>https://github.com/xjc-maven-plugin/xjc23/blob/master/LICENSE</url>
 			<distribution>repo</distribution>
 			<comments>Maven JAXB2 Plugin license is the 3-clause BSD license which is compatible with GPL. Maven JAXB2 Plugin license does not require you to include any acknowledgments for Maven JAXB2 Plugin in advertising materials for your software.</comments>
 		</license>
 	</licenses>
 	<inceptionYear>2006</inceptionYear>
 	<scm>
-		<connection>scm:svn:https://svn.java.net/svn/maven-jaxb2-plugin~svn/trunk</connection>
-		<developerConnection>scm:svn:https://svn.java.net/svn/maven-jaxb2-plugin~svn/trunk</developerConnection>
-		<url>http://java.net/projects/maven-jaxb2-plugin/sources/svn/show/trunk</url>
+		<connection>scm:git:https://github.com/xjc-maven-plugin/xjc23.git</connection>
+		<developerConnection>scm:git:https://github.com/xjc-maven-plugin/xjc23.git</developerConnection>
+		<url>https://github.com/xjc-maven-plugin/xjc23/tree/${project.version}</url>
 	</scm>
 	<developers>
 		<developer>
@@ -257,17 +257,12 @@
 			</dependency>
 			<dependency>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin-core</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin-testing</artifactId>
+				<artifactId>xjc23-maven-plugin-testing</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<!-- Maven plugin and api classes -->

@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>maven-jaxb2-plugin-tests-res</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-res</artifactId>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests</artifactId>
+		<artifactId>xjc23-maven-plugin-tests</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
 	<packaging>jar</packaging>
@@ -17,12 +17,12 @@
 		</dependency>
 		<dependency>
 			<groupId>org.hisrc.xjc</groupId>
-			<artifactId>maven-jaxb2-plugin-tests-po</artifactId>
+			<artifactId>xjc23-maven-plugin-tests-po</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hisrc.xjc</groupId>
-			<artifactId>maven-jaxb2-plugin-testing</artifactId>
+			<artifactId>xjc23-maven-plugin-testing</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -30,7 +30,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin-tests-po</artifactId>
+				<artifactId>xjc23-maven-plugin-tests-po</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
@@ -39,7 +39,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<executions>
 					<execution>
 						<id>generate</id>
@@ -69,7 +69,7 @@
 								<schema>
 									<dependencyResource>
 										<groupId>org.hisrc.xjc</groupId>
-										<artifactId>maven-jaxb2-plugin-tests-po</artifactId>
+										<artifactId>xjc23-maven-plugin-tests-po</artifactId>
 										<!-- Can be defined in project dependencies or dependency management -->
 										<!--version>${project.version}</version-->
 										<resource>purchaseorder.xsd</resource>
@@ -78,7 +78,7 @@
 								<schema>
 									<dependencyResource>
 										<groupId>org.hisrc.xjc</groupId>
-										<artifactId>maven-jaxb2-plugin-tests-po-scd</artifactId>
+										<artifactId>xjc23-maven-plugin-tests-po-scd</artifactId>
 										<version>${project.version}</version>
 										<resource>purchaseorder.xsd</resource>
 									</dependencyResource>

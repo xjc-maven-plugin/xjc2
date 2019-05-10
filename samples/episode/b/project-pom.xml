@@ -2,12 +2,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>maven-jaxb2-plugin-sample-episode-b-maven</artifactId>
+	<artifactId>xjc23-maven-plugin-sample-episode-b-maven</artifactId>
 	<name>Maven JAXB 2.x Plugin Sample [episode-b|maven]</name>
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-sample-episode-maven</artifactId>
+		<artifactId>xjc23-maven-plugin-sample-episode-maven</artifactId>
 		<version>${project.version}</version>
 	</parent>
 	<dependencies>
@@ -17,7 +17,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.hisrc.xjc</groupId>
-			<artifactId>maven-jaxb2-plugin-sample-episode-a-maven</artifactId>
+			<artifactId>xjc23-maven-plugin-sample-episode-a-maven</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
@@ -27,13 +27,13 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<configuration>
 					<extension>true</extension>
 					<episodes>
 						<episode>
 							<groupId>org.hisrc.xjc</groupId>
-							<artifactId>maven-jaxb2-plugin-sample-episode-a-maven</artifactId>
+							<artifactId>xjc23-maven-plugin-sample-episode-a-maven</artifactId>
 						</episode>
 					</episodes>
 					<catalog>src/main/resources/catalog.cat</catalog>

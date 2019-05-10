@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>maven-jaxb2-plugin-tests-rnc</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-rnc</artifactId>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests</artifactId>
+		<artifactId>xjc23-maven-plugin-tests</artifactId>
 		<version>0.12.4-SNAPSHOT</version>
 	</parent>
 	<packaging>jar</packaging>
@@ -22,7 +22,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.hisrc.xjc</groupId>
-			<artifactId>maven-jaxb2-plugin-testing</artifactId>
+			<artifactId>xjc23-maven-plugin-testing</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -30,7 +30,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<version>${project.version}</version>
 				<executions>
 					<execution>

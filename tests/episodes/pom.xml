@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests</artifactId>
+		<artifactId>xjc23-maven-plugin-tests</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>maven-jaxb2-plugin-tests-episodes</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-episodes</artifactId>
 	<packaging>pom</packaging>
 	<name>Maven JAXB 2.x Plugin Tests [episodes]</name>
 	<modules>

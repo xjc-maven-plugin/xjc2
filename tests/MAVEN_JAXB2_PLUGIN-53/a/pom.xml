@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-53</artifactId>
+		<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-53</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-53-a</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-53-a</artifactId>
 	<packaging>jar</packaging>
 	<name>Maven JAXB 2.x Plugin Tests [MAVEN_JAXB2_PLUGIN-53:a]</name>
 	<build>
@@ -15,7 +15,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>

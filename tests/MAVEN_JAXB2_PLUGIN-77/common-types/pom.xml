@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-77</artifactId>
+		<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-77</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-77-common-types</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-77-common-types</artifactId>
 	<name>Maven JAXB 2.x Plugin Tests [MAVEN_JAXB2_PLUGIN-77:common-types]</name>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<configuration>
 					<schemaDirectory>src/main/resources/META-INF/project/schemas</schemaDirectory>
 					<generatePackage>com.company.project.common.types</generatePackage>

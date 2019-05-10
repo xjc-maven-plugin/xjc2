@@ -4,16 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-79</artifactId>
+		<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-79</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-79-b</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-79-b</artifactId>
 	<packaging>jar</packaging>
 	<name>Maven JAXB 2.x Plugin Tests [MAVEN_JAXB2_PLUGIN-79:b]</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.hisrc.xjc</groupId>
-			<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-79-a</artifactId>
+			<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-79-a</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
@@ -23,13 +23,13 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<configuration>
 					<extension>true</extension>
 					<episodes>
 						<episode>
 							<groupId>org.hisrc.xjc</groupId>
-							<artifactId>maven-jaxb2-plugin-tests-MAVEN_JAXB2_PLUGIN-79-a</artifactId>
+							<artifactId>xjc23-maven-plugin-tests-MAVEN_JAXB2_PLUGIN-79-a</artifactId>
 						</episode>
 					</episodes>
 					<catalog>src/main/resources/catalog.cat</catalog>

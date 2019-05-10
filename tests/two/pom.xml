@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests</artifactId>
+		<artifactId>xjc23-maven-plugin-tests</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
 	<dependencies>
@@ -23,7 +23,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<artifactId>maven-jaxb2-plugin-tests-two</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-two</artifactId>
 	<packaging>jar</packaging>
 	<name>Maven JAXB 2.x Plugin Tests [two]</name>
 	<build>
@@ -31,7 +31,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<executions>
 					<execution>
 						<id>generate</id>

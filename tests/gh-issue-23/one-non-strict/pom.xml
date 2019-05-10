@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.hisrc.xjc</groupId>
-		<artifactId>maven-jaxb2-plugin-tests-gh-issue-23</artifactId>
+		<artifactId>xjc23-maven-plugin-tests-gh-issue-23</artifactId>
 		<version>0.14.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>maven-jaxb2-plugin-tests-gh-issue-23-one-non-strict</artifactId>
+	<artifactId>xjc23-maven-plugin-tests-gh-issue-23-one-non-strict</artifactId>
 	<packaging>jar</packaging>
 	<name>Maven JAXB 2.x Plugin Tests [GitHub Issue #23:one-non-strict]</name>
 	<dependencies>
@@ -17,7 +17,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.hisrc.xjc</groupId>
-			<artifactId>maven-jaxb2-plugin-testing</artifactId>
+			<artifactId>xjc23-maven-plugin-testing</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -25,7 +25,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.hisrc.xjc</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
+				<artifactId>xjc23-maven-plugin</artifactId>
 				<!--version>0.11.0</version-->
 				<executions>
 					<execution>

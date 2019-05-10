@@ -5,7 +5,7 @@
 	xmlns:c="c"
 	elementFormDefault="qualified">
 
-	<xsd:import namespace="a" schemaLocation="https://maven-jaxb2-plugin.dev.java.net/svn/maven-jaxb2-plugin/trunk/samples/episode/a/src/main/resources/a.xsd"/>
+	<xsd:import namespace="a" schemaLocation="https://xjc-maven-plugin.github.io/xjc23/samples/episode/a/src/main/resources/a.xsd"/>
 
 	<xsd:element name="c" type="c:CType"/>
 
