@@ -1,7 +1,7 @@
 /.idea
 *.iml
-/err
-/std
+std*
+err*
 **/.classpath
 **/.project
 **/.settings

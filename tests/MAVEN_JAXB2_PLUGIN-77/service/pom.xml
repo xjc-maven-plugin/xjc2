@@ -29,7 +29,7 @@
 					<schemaDirectory>src/main/resources/META-INF/project/schemas</schemaDirectory>
 					<generatePackage>com.company.project.service.types</generatePackage>
 					<catalog>src/main/jaxb/catalog.cat</catalog>
-					<catalogResolver>org.jvnet.jaxb2.maven2.resolver.tools.ClasspathCatalogResolver</catalogResolver>
+					<catalogResolver>org.hisrc.xjc.maven.resolver.tools.ClasspathCatalogResolver</catalogResolver>
 					<extension>true</extension>
 					<plugins>
 						<plugin>
